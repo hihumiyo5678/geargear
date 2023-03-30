@@ -40,7 +40,7 @@ function createGear() {
 }
 
 function animateGear(gear) {
-  const rotationSpeed = Math.random() * 0.1 + 0.1;
+  const rotationSpeed = Math.random() * 1 + 1;
   const direction = Math.random() > 0.5 ? 1 : -1;
 
   function rotate() {
